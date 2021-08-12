@@ -26,5 +26,5 @@ class Choice(models.Model):
     votes = models.IntegerField(default=0)
 
     def __str__(self):
-        return "{} - {}: {}".format(self.question.id, self.text, self.votes)
+        return "{} - {}: {} | updated at: {}".format(self.question.id, self.text, self.votes, self.updated_at)
     pass
