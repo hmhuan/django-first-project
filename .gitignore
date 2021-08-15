@@ -1,2 +1,7 @@
 # created by virtualenv automatically
 .vscode
+src/blogs/__pycache__/
+src/blogs/migrations/
+
+src/polls/__pycache__/
+src/teaforyou/__pycache__/
